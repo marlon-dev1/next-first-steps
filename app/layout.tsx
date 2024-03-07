@@ -9,11 +9,7 @@ export const metadata: Metadata = {
     description: 'Generated with love by vercel',
 };
 
-export default function RootLayout({
-    children,
-}: Readonly<{
-    children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
         <html lang="es">
             <body className={inter.className}>{children}</body>
